@@ -17,10 +17,10 @@ PV = "2017.09"
 
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=a2c678cfd4a4d97135585cad908541c6"
 
-SRCREV = "a93658f8f45dc0266be21840931131b10c325e03"
+SRCREV = "84d7663bd6c62f508a8843d3a347ad14ab51e79b"
 SRCREV_rkbin = "c41b714cacd249e3ef69b2bbe774da5095eefd72"
 SRC_URI = " \
-	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=u-boot; \
+	git://github.com/khadas/u-boot.git;protocol=https;branch=khadas-edge-v2017.09; \
 	git://github.com/JeffyCN/mirrors.git;protocol=https;branch=rkbin;name=rkbin;destsuffix=rkbin; \
 "
 
